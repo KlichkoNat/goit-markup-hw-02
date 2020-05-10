@@ -1,3 +1,20 @@
-body {
-  color: tomato;
+.header {
+  background: #ffffff;
+  color: #212121;
+}
+.logo {
+  color: #2196f3;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #2196f3;
+}
+.phone {
+  color: #757575;
+}
+.preview {
+  color: #ffffff;
+  background-color: black;
 }
