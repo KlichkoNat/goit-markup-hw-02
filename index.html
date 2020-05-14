@@ -3,13 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Web Studio</title>
   </head>
   <body>
     <header>
       <nav class="header">
-        <a href="/"> <span class="logo">Web</span> <b>Studio</b> </a>
+        <a class="logos" href="/"> <span class="logo">Web</span> Studio</a>
         <ul>
           <li><a href="">Студия</a></li>
           <li><a href="portfolio.html">Портфолио</a></li>
@@ -30,7 +34,7 @@
     <main>
       <section>
         <h1 class="preview">эффективные решения для вашего бизнеса</h1>
-        <a href="">Заказать услугу</a>
+        <a class="button" href="">Заказать услугу</a>
       </section>
       <section>
         <h2>Преимущества нашей студии</h2>
@@ -40,7 +44,7 @@
               <img src="./images/antenna.svg" alt="Антена" />
             </a>
             <b>Внимание к деталям</b>
-            <p>
+            <p class="text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
@@ -51,7 +55,7 @@
               <img src="./images/clock.svg" alt="Часы" />
             </a>
             <b>Пунктуальность</b>
-            <p>
+            <p class="text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
@@ -62,7 +66,7 @@
               <img src="./images/computer.svg" alt="Компьютер" />
             </a>
             <b>Планирование</b>
-            <p>
+            <p class="text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
@@ -73,7 +77,7 @@
               <img src="./images/cosmonaut.svg" alt="Космнавт" />
             </a>
             <b>Современные технологии</b>
-            <p>
+            <p class="text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -110,7 +114,7 @@
             <a href="">
               <img src="./images/jhon.jpg" alt="Фото John Smith" />
               <h3>John Smith</h3>
-              <p>Product Designer</p>
+              <p class="desc">Product Designer</p>
             </a>
             <ul>
               <li>
@@ -138,7 +142,7 @@
             <a href="">
               <img src="./images/marta.jpg" alt="Фото Marta Stewart" />
               <h3>Marta Stewart</h3>
-              <p>Frontend Developer</p>
+              <p class="desc">Frontend Developer</p>
             </a>
             <ul>
               <li>
@@ -166,7 +170,7 @@
             <a href="">
               <img src="./images/robert.jpg" alt="Фото Robert Jakis" />
               <h3>Robert Jakis</h3>
-              <p>Marketing</p>
+              <p class="desc">Marketing</p>
             </a>
             <ul>
               <li>
@@ -194,7 +198,7 @@
             <a href="">
               <img src="./images/martin.jpg" alt="Фото Martin Doe" />
               <h3>Martin Doe</h3>
-              <p>UI Designer</p>
+              <p class="desc">UI Designer</p>
             </a>
             <ul>
               <li>
@@ -257,10 +261,10 @@
       </section>
     </main>
     <footer>
-      <span class="logo">Web</span> <b>Studio</b>
+      <div class="logos"><span class="logo">Web</span> Studio</div>
       <address>
         <ul>
-          <li>г. Киев, пр-т Леси Украинки, 26</li>
+          <li class="adress">г. Киев, пр-т Леси Украинки, 26</li>
           <li><a href="maito:info@defstudio.com">info@defstudio.com</a></li>
           <li>
             <a class="phone" href="tel:+380961111111">+38 096 111 11 11</a>
