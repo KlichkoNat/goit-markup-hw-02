@@ -64,6 +64,9 @@ a:hover {
 .phone {
   color: #757575;
 }
+.phone:hover {
+  color: #2196f3;
+}
 .preview {
   color: #ffffff;
   background-color: black;
@@ -157,4 +160,13 @@ h3 {
   line-height: 28px;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+.aside {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
 }
